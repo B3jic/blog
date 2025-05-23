@@ -1,0 +1,102 @@
+body {
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+}
+
+hr {
+  width: 50%;
+  border-top: 2px dashed #979797;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+li form {
+  display: inline;
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: #979797;
+}
+
+button:hover {
+  color: #222;
+}
+
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20%;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #979797;
+  width: 300px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  font-size: 14px;
+}
+
+input:active,
+textarea:active {
+  border-color: #222;
+}
+
+input[type="submit"] {
+  box-sizing: content-box;
+  width: 150px;
+  border: none;
+  background-color: #d40;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #7a0a0a;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > div {
+  width: 50%;
+}
+
+footer h1 {
+  text-align: left;
+}
+
+.divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top-color: #d40;
+}
+
+p {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
